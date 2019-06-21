@@ -7,7 +7,7 @@
     tools:context=".TwoDevice2P"
     android:background="#FFF3E0"
     android:orientation="horizontal">
-    <com.example.haresh.tic_tac_toe_app.CanvasViewDouble2P
+    <com.example.anirbanchakraborty.tic_tac_toe_app.CanvasViewDouble2P
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:background="#FFE7BF"

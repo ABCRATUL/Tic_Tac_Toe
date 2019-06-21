@@ -1,5 +1,7 @@
 package com.example.anirbanchakraborty.tic_tac_toe;
 
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -28,6 +30,7 @@ public class two_player_names extends AppCompatActivity {
         start2p = (Button) findViewById(R.id.start2p);
         start2p.setOnClickListener(
                 new View.OnClickListener() {
+                    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent(two_player_names.this, SingleDevice2P.class);

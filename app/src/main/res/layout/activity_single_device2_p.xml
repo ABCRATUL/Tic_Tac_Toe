@@ -7,7 +7,7 @@
     tools:context="com.example.anirbanchakraborty.tic_tac_toe.SingleDevice2P"
     android:background="#FFF3E0">
 
-    <com.example.haresh.tic_tac_toe_app.CanvasViewSingle2P
+    <com.example.anirbanchakraborty.tic_tac_toe.CanvasViewSingle2P
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:background="#FFE7BF"

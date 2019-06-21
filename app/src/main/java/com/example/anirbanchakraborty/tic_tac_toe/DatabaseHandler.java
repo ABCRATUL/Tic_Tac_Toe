@@ -128,9 +128,9 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         //db.close();
     }
 
-    /*public void sortTable()
+    public void sortTable()
     {
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL("SELECT * FROM " + TABLE_SCORES + " ORDER BY "+KEY_NAME+", "+KEY_SCORE+" DESC;");
-    }*/
+    }
 }

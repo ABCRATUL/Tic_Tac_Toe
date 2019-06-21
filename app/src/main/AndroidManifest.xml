@@ -4,10 +4,12 @@
     <meta-data
         android:name="com.google.android.gms.version"
         android:value="@integer/google_play_services_version" />
-
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/tic_tac_toe_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -18,23 +20,35 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".two_player_names" />
-        <activity android:name=".two_player" />
-        <activity android:name=".highscores2p" />
-        <activity android:name=".BluetoothActivity" />
+        <activity android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".two_player_names"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".two_player"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".highscores2p"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".BluetoothActivity"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name=".about"
+            android:configChanges="orientation|screenSize"
             />
-        <activity android:name=".one_player" />
-        <activity android:name=".one_player_difficult" />
-        <activity android:name=".one_player_easy" />
-        <activity android:name=".SingleDevice2P" />
-        <activity android:name=".two_player_selector" />
-        <activity android:name=".TwoDevice2P" />
-        <activity android:name=".TwoDevice2P_names">
+        <activity android:name=".one_player"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".one_player_difficult"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".one_player_easy"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".SingleDevice2P"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".two_player_selector"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".TwoDevice2P"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".TwoDevice2P_names"
+            android:configChanges="orientation|screenSize">
 
         </activity>
 
