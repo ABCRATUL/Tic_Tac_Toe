@@ -6,7 +6,7 @@
 
     tools:context="com.example.anirbanchakraborty.tic_tac_toe.one_player_difficult"
     android:background="#FFF3E0">
-    <com.example.haresh.tic_tac_toe_app.CanvasView1D
+    <com.example.anirbanchakraborty.tic_tac_toe.CanvasView1D
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:background="#FFE7BF"

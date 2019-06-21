@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Feel free to contribute on https://github.com/hareshkh/tic_tac_toe_app"
+        android:text="Feel free to contribute on https://github.com/anirbanchakraborty/tic_tac_toe_app"
         android:id="@+id/textView2"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
